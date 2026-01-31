@@ -14,19 +14,19 @@ export default function Page() {
     const phrases = [
       "No",
       "Are you sure?",
-      "What if I asked really nicely?",
-      "Pretty please",
-      "With a chocolate rice cake on top",
-      "What about a matcha frostie",
-      "PLEASE POOKIE",
-      "But :*(",
-      "I am going to die",
-      "Yep im dead",
-      "ok ur talking to nathan's ghost",
-      "please babe",
-      ":((((",
-      "PRETTY PLEASE",
-      "Estoy muerto",
+      "So bakit mo pinindot twice?",
+      "Aba tinatlo pa",
+      "Libre kita matcha",
+      "Libre na rin unli kiss",
+      "WHAT?!",
+      "Bawal mag no",
+      "Ganon",
+      "Aray ko poh",
+      "Sige naaa",
+      "Pleaseeeeee",
+      "PLEASE LOVE I NEED THISSS",
+      ":<",
+      "Last na yan",
       "No :(",
     ];
 
@@ -38,15 +38,15 @@ export default function Page() {
       {yesPressed ? (
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-          <div className="my-4 text-4xl font-bold">WOOOOOO!!! I love you pookie!! ;))</div>
+          <div className="my-4 text-4xl font-bold">YAYYYYY I LOVE YOU MWA</div>
         </>
       ) : (
         <>
           <img
             className="h-[200px]"
-            src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
+            src="https://media.tenor.com/RBa37_6ApVcAAAAi/cute-adorable.gif"
           />
-          <h1 className="my-4 text-4xl">Will you be my Valentine?</h1>
+          <h1 className="my-4 text-4xl">May I be your Valentine?</h1>
           <div className="flex items-center">
             <button
               className={`mr-4 rounded bg-green-500 px-4 py-2 font-bold text-white hover:bg-green-700`}
